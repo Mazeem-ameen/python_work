@@ -35,8 +35,25 @@ one_more_guest='Grace'
 guest_list.append(one_more_guest)
 print(guest_list)
 
-message=f"You are invited to dinner, {guest_list[1]} and {guest_list[3]}"
-print(message)
+print(f"My new dinner table won't arrive in time for the dinner, now i have invited two persons.")
 
-message=pop_guest=guest_list.pop(0)
-print(f"Sorry {pop_guest}, you are uninvited to dinner.")
+
+romoved_guest=guest_list.pop()
+print(f"Sorry {romoved_guest}, you are uninvited to dinner.")
+
+romoved_guest=guest_list.pop()
+print(f"Sorry {romoved_guest}, You are uninvited to dinner.")
+
+removed_guest=guest_list.pop()
+print(f"Sorry {removed_guest}, yor are uninvited to dinner.")
+
+removed_guest=guest_list.pop()
+print(f"Sorry {removed_guest}, yor are uninvited to dinner.")
+
+
+print(f"Dear {guest_list[0]}, you are still invited to dinner.")
+print(f"Dear {guest_list[1]}, you are still invited to dinner,")
+
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
