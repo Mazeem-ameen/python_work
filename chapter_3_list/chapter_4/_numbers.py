@@ -18,8 +18,3 @@ print(max(digits))
 print(sum(digits))
 
 
-odd_numbers = list(range(1, 20, 2))
-print(odd_numbers)
-
-multiples_of_3 = list(range(3, 31, 3))
-print(multiples_of_3)
